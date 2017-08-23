@@ -1,0 +1,31 @@
+package DS;
+
+public class Node<T> {
+
+	private T value;
+	private Node<T> next;
+	
+	public Node(T val){
+		next = null;
+		value = val;
+	}
+
+	public T getValue() {
+		return value;
+	}
+
+	public void setValue(T value) {
+		this.value = value;
+	}
+
+	public Node<T> getNext() {
+		return next;
+	}
+
+	public void setNext(Node<T> next) {
+		this.next = next;
+	}
+	
+	
+
+}
